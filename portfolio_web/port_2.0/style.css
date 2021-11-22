@@ -33,6 +33,7 @@
     background-color: #94D2BD;
     text-align: center;
     font-weight: bolder;
+    font-size: 20px;
        
 }
 
@@ -93,6 +94,7 @@
 }
 
 #desc{
+    font-size: 16px;
     position: absolute;
     margin-top: 10px;
     padding: 10px;
