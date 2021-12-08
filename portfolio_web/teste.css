@@ -1,0 +1,56 @@
+.menu{
+    border:1px solid black;
+}
+
+.menu ul a{
+    text-decoration: none;
+    text-align: right;
+    ;
+    position: relative
+}
+
+.menu ul li {
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+    padding: 10px;
+    left: 900px;
+    position: relative;
+    
+}
+
+.menu ul li:hover{
+    
+    background-color: aquamarine;
+    
+}
+
+
+div{
+    border:1px solid red;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.ft2{
+    width: 300px;
+    border: 5px solid blue;
+    grid-column: auto;
+    margin-top: 50px;
+}
+
+.ft3{
+    border-radius: 25%;
+    width: 300px;
+    border: 2px solid purple;
+    margin-top: 50px;
+    
+}
+
+.descfoto{
+    text-align: center;
+
+}
