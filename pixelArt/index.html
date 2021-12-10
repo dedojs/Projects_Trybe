@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Paleta de Cores</title>
+</head>
+<body>
+        <h1 id="title">Paleta de Cores</h1>
+            <ul id="color-palette">
+                <li id='p1' class="color"></li>
+                <li id='p2' class="color"></li>
+                <li id='p3' class="color"></li>
+                <li id='p4' class="color"></li>
+                <li id='p5' class="color"></li>
+                <li id='p6' class="color"></li>
+                <li id='p7' class="color"></li>
+                <li id='p8' class="color"></li>
+                <li id='p9' class="color"></li>
+                <li id='p10' class="color"></li>
+                <li id='p11' class="color"></li>
+                <li id='p12' class="color"></li>
+                <li id='p13' class="color"></li>
+                <li id='p14' class="color"></li>
+            </ul>
+        <div id="config">
+            <div>
+            <label for="fname">Board Size:</label>
+            <input type="number" id="board-size" name="quantity" min="1" max="50" value="">
+            <button id="generate-board"> Criar </button>
+            </div>
+            <div id="config2">
+            <button onclick="deletar()">Deletar</button>
+            <button id="clear-board" onclick="resetar()">Limpar</button>
+            <button id="clear-color" onclick="colors()">Mudar Cores</button>
+            </div>
+            <!-- <button id="clear-board" onclick="bordersOff()">Retirar Bordas</button> -->
+        </div>
+        <section>
+            <ul id="pixel-board">
+            </ul>
+        </section>
+        <section id="imgs">
+            <p>Exemplos</p>
+            <a href="./imgs/mariopixel200.png" target="_blank"><img src="./imgs/mariopixel200.png"></a>
+            <img src="./imgs/dkpixel.png">
+            <img src="./imgs/ralphpixel.jpg">
+            <img src="./imgs/sonic.jpg">
+            <img src="./imgs/sonic1.png">
+        </section>
+        <footer>
+            <p>@Andre_Sousa</p>
+            
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

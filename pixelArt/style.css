@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: rbg(255,255,255);
+  
+  
+
+}
+body{
+  background-color: white;
+  border: 10px solid gold;
+  
+  
+}
+
+#title{
+  text-align: center;
+  background-color: black;
+  margin-bottom: 20px;
+  color: gold;
+}
+
+#color-palette{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-block-start: 0;
+
+
+}
+
+.color{
+  width: 40px;
+  height: 40px;
+  border: solid black 1px;
+  display: inline-block;
+  list-style-type:none;
+}
+
+#p1{
+  background-color: black;
+  
+}
+
+#p10{
+  background-color: white;
+}
+
+#p11{
+  background-color: yellow;
+}
+
+#p12{
+  background-color: rgb(8, 12, 252);
+}
+
+#p13{
+  background-color: rgb(255, 0, 0);
+}
+
+#p14{
+  background-color: rgb(47, 243, 8);
+}
+
+
+
+#pixel-board{
+  text-align: center;
+  padding: 0;
+  max-width: 206px;
+  max-height: 206px;
+  border: 0px solid black;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+.pixel{
+  width: 40px;
+  height: 40px;
+  border: solid;
+  border-width: 1px;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: -6px;
+}
+
+.board{
+  width: 40px;
+  height: 40px;
+  border: solid;
+  border-width: 1px;
+  margin: 0;
+  display: inline-block;
+  margin:auto;
+
+}
+
+#config{
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+  }
+
+  #config2{
+    margin-top: 20px;
+  }
+
+
+.target{
+  transform: translateY(-10px);
+  border: 5px, solid, black;
+  width: 45px;
+}
+
+.selected{
+background-color: black;
+}
+
+.clear{
+  background-color: white;
+}
+
+.bordersOff{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: -7px;
+}
+
+/*------------*/
+
+#imgs{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left:50px;
+}
+
+footer{
+  text-align: center;
+}
