@@ -19,7 +19,7 @@ function gerar_cor(opacidade = 1) {
   return `rgba(${r}, ${g}, ${b}, ${opacidade})`;
 }
 
-let list = [p2, p3, p4, p5, p6, p7, p8, p9,]
+let list = [p2, p3, p4, p5, p6, p7, p8, p9,p15,p16]
 // Cor dos quadrados gerado aleatoriamente
 function colors(element) {
   for(let i = 0; i<list.length; i+=1){
@@ -83,8 +83,9 @@ function deletar() {
 //função para resetar cores
 function resetar() {
   deletar();
-  criarBoard(numero);
+  criarBoard(8);
   line.style.backgroundColor = 'white';
+  
 }
 
 // criar quadrado

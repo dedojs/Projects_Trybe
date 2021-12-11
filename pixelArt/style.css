@@ -2,14 +2,11 @@
   padding: 0;
   margin: 0;
   background-color: rbg(255,255,255);
-  
-  
-
+ 
 }
 body{
   background-color: white;
   border: 10px solid gold;
-  
   
 }
 
@@ -27,7 +24,6 @@ body{
   margin-right: 0;
   margin-block-start: 0;
 
-
 }
 
 .color{
@@ -36,6 +32,7 @@ body{
   border: solid black 1px;
   display: inline-block;
   list-style-type:none;
+  margin-left:-5px;
 }
 
 #p1{
@@ -64,7 +61,6 @@ body{
 }
 
 
-
 #pixel-board{
   text-align: center;
   padding: 0;
@@ -75,7 +71,6 @@ body{
   background-color: rgb(255, 255, 255);
 
 }
-
 
 .pixel{
   width: 40px;
@@ -95,7 +90,6 @@ body{
   margin: 0;
   display: inline-block;
   margin:auto;
-
 }
 
 #config{
@@ -140,6 +134,14 @@ background-color: black;
   margin-left:50px;
 }
 
-footer{
+#menuContato{
   text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#menuContato li{
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
 }
