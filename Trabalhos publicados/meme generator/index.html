@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style1.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Cedarville+Cursive&family=Comforter+Brush&family=Cookie&family=Open+Sans&family=Orbitron:wght@500;900&family=Roboto+Slab:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="header">Meme Generetor!</h1>
+      <div id="menu">
+        <label class="label" for="cortexto">Text Color</label>
+        <select name="cortexto" id="colorText">
+          <option class="optiontext" value="white">Branco</option>
+          <option class="optiontext" value="black">Preto</option>
+          <option class="optiontext" value="yellow">Amarelo</option>
+          <option class="optiontext" value="red">Vermelho</option>
+          <option class="optiontext" value="green">Verde</option>
+          <option class="optiontext" value="blue">Azul</option>
+        </select>
+
+        <label class="label" for="tamFonte">Tamanho Fonte</label>
+        <select name="tamFonte" id="font">
+          <option class="optionfont" value="35px">Pequena</option>
+          <option class="optionfont" value="45px">Média</option>
+          <option class="optionfont" value="60px">Grande</option>
+        </select>
+
+        <label class="label" for="family">Fonte Family</label>
+        <select name="family" id="family">
+          <option class="optionfamily" value="Roboto Slab" , serif;>
+            Roboto
+          </option>
+          <option class="optionfamily" value="Bakbak One" , cursive;>
+            Barbak One
+          </option>
+          <option class="optionfamily" value="Orbitron" , sans-serif;>
+            Orbitron
+          </option>
+          <option class="optionfamily" value="Cedarville Cursive" , cursive;>
+            Cedavile Cursive
+          </option>
+          <option class="optionfamily" value="Cookie" , cursive;>Cookie</option>
+        </select>
+
+        <label class="label" for="margin">Margem</label>
+        <select name="margin" id="margin">
+          <option class="optionmargin" value="flex-start">Superior</option>
+          <option class="optionmargin" value="center">Centralizado</option>
+          <option class="optionmargin" value="flex-end">Inferior</option>
+        </select>
+
+        <label class="label" for="align">Alinhamento</label>
+        <select name="align" id="align">
+          <option class="optionmargin" value="center">Centralizado</option>
+          <option class="optionmargin" value="flex-start">Esquerda</option>
+          <option class="optionmargin" value="flex-end">Direita</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <section id="container">
+        <div id="input">
+          <label for="name">Digite a frase:</label>
+          <input type="text" id="text-input" maxlength="60" text="" />
+          <button id="anexar">Anexar</button>
+        </div>
+        <div id="meme-cont">
+          <label for="meme-insert"></label>
+          <input
+            type="file"
+            id="meme-insert"
+            name="image"
+            accept=".png, .jpeg, .jpg"
+          />
+        </div>
+        <div id="meme-image-container">
+          <p id="meme-text"></p>
+          <img id="meme-image" />
+        </div>
+      </section>
+      <section>
+        <div id="border-container">
+          <button id="fire">Fire</button>
+          <button id="water">Water</button>
+          <button id="earth">Earth</button>
+        </div>
+      </section>
+      <h2>Memes pré prontos</h2>
+      <div id="exemplos">
+        <img src="./imgs/meme1.png" class="meme" id="meme-1" alt="meme1" />
+        <img src="./imgs/meme2.png" class="meme" id="meme-2" alt="meme2" />
+        <img src="./imgs/meme3.png" class="meme" id="meme-3" alt="meme3" />
+        <img src="./imgs/meme4.png" class="meme" id="meme-4" alt="meme4" />
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script1.js"></script>
+  </body>
+</html>
