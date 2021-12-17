@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: rgba(116, 49, 18, 0.561);
+  color: white;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  background-color: rgba(116, 49, 18, 0.918);
+  margin: auto;
+  color: white;
+  border-radius: 2px;
+  width: auto;
+}
+
+body {
+  background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size:cover;
+  background-attachment:scroll;
+
+}
+
+.main {
+  width: 100%;
+  height:1020px;
+  text-align: center;
+
+}
+
+.footer {
+  background-color: rgba(116, 49, 18, 0.561);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+
+}
+
+#menuContato {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menuContato li {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* --------------------------- */
+/* campo de input */
+#input{
+  margin-left: 100px;
+  align-items: center;
+  }
+
+/* titulo das tarefas */
+h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* campo do input*/
+#input input{
+  margin-top: 8px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.input{
+  /* campo input adicionar e botoes */
+  position: relative;
+  top: 70px;
+  display: inline-block;
+  
+
+}
+#input1{
+  display: inline-block;
+}
+#input2{
+  display: inline-block;
+
+}
+
+#cont-task{
+  position: relative;
+  top: 80px;
+  overflow: auto;
+  /* border: 1px solid; */
+  height: 800px;
+}
+.task{
+  max-width: 800px;
+}
+
+/* botao input */
+#criar-tarefa{
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* menu botoes */
+menu .button{
+  text-align: center;
+  font-size: 15px;
+
+}
+#menu{
+  margin-top: 20px;
+  width: auto;
+}
+#apaga-tudo{
+  background-color: red;
+  border-radius: 100%;
+  width: 50px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+
+}
+#remover-selecionado{
+  background-color: grey;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  content: 'Apagar selecionado';
+  }
+#remover-finalizados{
+  background-color: yellow;
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+
+}
+#salvar-tarefas{
+  background-color: rgb(0, 153, 255);
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+#apagar-memoria{
+  background-color: red;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+#mover-cima{
+  width: 40px;
+  margin-left: 5px;
+  position: relative;
+  top: 12px;
+}
+#mover-baixo{
+  width: 40px;
+  margin-left: 5px;
+  position: relative;
+  top: 12px;
+
+}
+#in{
+  width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+/* ol do input */
+#lista-tarefa{
+  list-style-type: '1';
+  list-style:decimal ;
+}
+
+/* li da ol = tasks*/
+.task{
+  font-size: 25px;
+  display: list-item;
+  list-style-position: inside;
+  width: 19em;
+  margin: 20px auto;
+  overflow: auto;
+  }
+
+
+/* classe de texto selecionado */
+.selected{
+  max-width: 800px;
+  margin:auto;
+  margin-top: 14px;
+  background-color: rgba(175, 82, 6, 0.26);
+  font-size: 25px;
+  font-weight: bolder;
+  overflow: auto
+};
+
+.completed{
+  text-decoration: line-through;
+  overflow: auto;
+}
+
+.teste{
+  text-decoration: line-through;
+  background-color: yellow;
+  width: 19em;
+}
+
+#freepik {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.274);
+}
+
+
+/* media query */
+@media screen and (max-width: 1600px) {
+  .input{
+    /* campo input adicionar e botoes */
+    position: relative;
+    top: 200px;
+    margin-left: -50px;
+  }
+  #input1{
+    display: inline;
+  }
+
+  #cont-task{
+    position: relative;
+    top: 200px;
+
+  }
+}
+
+@media screen and (max-width: 1495px) {
+  .input {
+    /* campo input adicionar e botoes */
+    position: relative;
+    top: 60px;
+    margin-left: 50px;
+    display: block;
+  }
+  #input1 {
+    position: relative;
+    top: 10px;
+   
+  }
+  #input2 {
+    position: relative;
+    display: block;
+    top: -45px;
+    left: 70px;
+    width: 200px;
+  }
+
+  #cont-task {
+    font-size: 18px;
+    height: 800px;
+    overflow: auto;
+    text-align: center;
+    font-size: 18px;
+    top: 20px;
+  }
+  
+  
+}
+
+
+
+ 
+
+
+
+

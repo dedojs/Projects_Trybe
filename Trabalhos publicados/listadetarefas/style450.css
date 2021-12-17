@@ -1,0 +1,183 @@
+@media screen and (max-width: 420px) {
+    body {
+      background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      position: cover;
+      height: 400px;
+    }
+
+    .main{
+      height: 300px;
+      
+    }
+    #in{
+      position: relative;
+      top: -30px;
+      margin-left: -50px;
+    }
+    .header{
+      height: 70px;
+    }
+  
+    .input{
+      top: 60px;
+      font-size: 15px;
+      top: 28px;
+      }
+    .input h2{
+      top:10px;
+      font-size: 15px;
+      margin-left: -30px;
+      
+    }
+    #texto-tarefa{
+        font-size: 15px;
+    }
+    .input input{
+      width: 50px;
+      height: 20px;
+      margin-left: -20px;
+      font-size: 15px;
+      
+    }
+    #cont-task{
+      position: relative;
+      top: -40px;
+      font-size: 12px;
+      overflow: auto;
+      height: 200px;
+      text-align: left;
+      margin-left: 90px;  
+      margin-right: 50px;  
+    }
+    /* botao input */
+  #criar-tarefa{
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 40px;
+    font-size: 7px;
+    position: relative;
+    top: -5px;
+  
+  }
+  #input2{
+    width: 40px;
+    position: relative;
+    top: -128px;
+    left: 60px;
+    display: inline;
+  }
+
+  #input1{
+    top: -60px;
+  }
+
+  .selected{
+      width: 180px;
+      font-size: 15px;
+      text-align: center;
+      margin-left: -20px;
+  }
+  .task{
+      font-size: 15px;
+  }
+
+  .completed{
+      width: 180px;
+  }
+
+  h1{
+      font-size: 20px;
+  }
+
+  header p{
+     font-size: 12px;
+  }
+
+  header{
+    height: 100px;
+  }
+
+  #remover-selecionado{
+    background-color: grey;
+    font-size: 3px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+    }
+  #remover-finalizados{
+    background-color: yellow;
+    font-size: 3px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 30px;
+  }
+  #salvar-tarefas{
+    background-color: rgb(0, 153, 255);
+    font-size: 3px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 30px;
+  }
+  #apagar-memoria{
+    background-color: red;
+    font-size: 3px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+    width: 30px;
+  }
+  #apaga-tudo{
+    background-color: red;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 7px;
+
+}
+#mover-cima{
+    width: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+}
+#mover-baixo{
+    width: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+}
+#freepik {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.274);
+    font-size: 10px;
+  }
+
+  footer p{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+  }
+  footer li{
+    width: 20px;
+  }
+}

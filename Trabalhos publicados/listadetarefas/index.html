@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./style1000.css" type="text/css">
+    <link rel="stylesheet" href="./style800.css" type="text/css">
+    <link rel="stylesheet" href="./style500.css" type="text/css">
+    <link rel="stylesheet" href="./style450.css" type="text/css">
+    <title>Minha Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <div id="menu">
+          <div id="in">
+            <button class="button" id="remover-selecionado">Apagar selecionado</button>
+            <button class="button" id="remover-finalizados">Apagar finalizados</button>
+            <button class="button" id="salvar-tarefas">Salvar tarefas</button>
+            <button class="button" id="apagar-memoria">Limpar memória</button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div id="container">
+        <div id="input">
+          <div class="input">
+            <h2>Lista de Tarefas</h2>
+            <div id="input1">
+              <input id="texto-tarefa" type="text"  />
+              <button class="button" id="criar-tarefa">Adicionar</button>
+            </div>
+            <div id="input2">
+              <button class="button" id="apaga-tudo">X</button>
+              <img src="./imgs/seta-para-cima.png" class="button" id='mover-cima'>
+              <img src="./imgs/seta-para-baixo.png" class="button" id='mover-baixo'>
+            </div>
+          </div>
+        </div>
+        <div id="cont-task">
+          <ol id="lista-tarefas" class="listaTarefa">
+          </ol>
+        </div>
+      </div>
+      </div>
+      </main>
+      <footer class="footer">
+        <ul id="menuContato">
+          <p>@Andre_Sousa</p>
+          <li>
+            <a href="https://github.com/dedojs" target="_blank"
+              ><img src="./imgs/github.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/andre-luis-sousa/"
+              target="_blank"
+              ><img src="./imgs/linkedin.png"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:xandresousax@gmail.com" target="_blank"
+              ><img src="./imgs/gmail.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=5577988020059"
+              target="_blank"
+              ><img src="./imgs/whatsapp.png"
+            /></a>
+          </li>
+        </ul>
+        <a href="https://br.freepik.com/fotos-vetores-gratis/fundo" id="freepik" target="_blanck">Fundo foto criado por freepik - br.freepik.com</a>
+      </footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

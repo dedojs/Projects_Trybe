@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+  body {
+      background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+      height: 600px;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+    header p {
+      font-size: 15px;
+    }
+   
+    .input h2{
+      font-size: 20px;
+    }
+
+    .input {
+      /* campo input adicionar e botoes */
+      position: relative;
+      top: 10px;
+      margin-left: -60px;
+      display: block;
+      
+    }
+
+    #input2 {
+      position: relative;
+      display: block;
+      top: -100px;
+      left: 1px;
+      
+    }
+    #cont-task {
+      font-size: 18px;
+      height: 300px;
+      overflow: auto;
+      text-align: center;
+      font-size: 18px;
+      top: -10px;
+    }
+    .task{
+        font-size: 18px;
+    }
+    #remover-selecionado{
+      background-color: grey;
+      font-size: 8px;
+      font-weight: bolder;
+      color: white;
+      padding: 5px;
+      border-radius: 10px;
+      width: 60px;
+      }
+    #remover-finalizados{
+      background-color: yellow;
+      font-size: 8px;
+      font-weight: bolder;
+      color: black;
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 5px;
+      width: 60px;
+    }
+    #salvar-tarefas{
+      background-color: rgb(0, 153, 255);
+      font-size: 8px;
+      font-weight: bolder;
+      color: white;
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 5px;
+      width: 60px;
+    }
+    #apagar-memoria{
+      background-color: red;
+      font-size: 8px;
+      font-weight: bolder;
+      color: white;
+      padding: 5px;
+      border-radius: 10px;
+      margin-left: 5px;
+      width: 60x;
+    }
+    #apaga-tudo{
+      background-color: red;
+      border-radius: 100%;
+      width: 20px;
+      height: 20px;
+      font-size: 15px;
+      font-weight: bolder;
+      color: white;
+      position: relative;
+      top: 7px;
+  
+  }
+  #mover-cima{
+      width: 20px;
+      margin-left: 5px;
+      position: relative;
+      top: 12px;
+  }
+  #mover-baixo{
+      width: 20px;
+      margin-left: 5px;
+      position: relative;
+      top: 12px;
+  }
+  #freepik {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.274);
+      font-size: 10px;
+    }
+    #texto-tarefa{
+      font-size:20px;
+      width: 40%;
+      
+    }
+    .selected{
+      width: 70%;
+    }
+    .completed{
+      width: 70%;
+    }
+}

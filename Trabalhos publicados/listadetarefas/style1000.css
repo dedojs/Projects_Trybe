@@ -1,0 +1,134 @@
+@media screen and (max-width: 1000px) {
+  .input {
+    /* campo input adicionar e botoes */
+    position: relative;
+    top: 40px;
+    margin-left: -50px;
+    display: block;
+  }
+  #input1 {
+    position: relative;
+    top: 10px;
+   
+  }
+  #input2 {
+    position: relative;
+    display: block;
+    top: -37px;
+    left: 120px;
+    width: 200px;
+  }
+
+  #cont-task {
+    font-size: 18px;
+    height: 700px;
+    overflow: auto;
+    text-align: center;
+    font-size: 18px;
+    top: 20px;
+  }
+  .selected {
+    width: 350px;
+    font-size: 22px;
+  }
+
+  .completed {
+    width: 350px;
+  }
+
+  body {
+    background-image: url(./imgs/black-tea-pen-spectacles-and-blank-white-papers-with-clipboard-on-wooden-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    height: 1100px;
+  }
+
+  
+  .input h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+  }
+  .input input {
+    margin-top: 10px;
+    width: 200px;
+  }
+  /* botao input */
+  #criar-tarefa {
+    margin-left: 5px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 7px;
+    position: relative;
+    top: -5px;
+  }
+  #apaga-tudo {
+    background-color: red;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 450px;
+  }
+  #mover-cima {
+    width: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+  }
+  #mover-baixo {
+    width: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: 12px;
+  }
+  .footer {
+    height: 100px;
+  }
+
+  #remover-selecionado {
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #remover-finalizados {
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  #salvar-tarefas {
+    background-color: rgb(0, 153, 255);
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  #apagar-memoria {
+    background-color: red;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+}
