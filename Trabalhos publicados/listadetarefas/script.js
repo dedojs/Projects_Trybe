@@ -47,7 +47,7 @@ function select(element) {
     alvo.classList.add('selected');
     listahtml[i].classList.remove('selected');
     if (alvo.classList === 'selected') {
-      teste5[teste5.length - 1].classList.remove('selected');
+      listahtml[listahtml.length - 1].classList.remove('selected');
     }
   }
   if (alvo === listTask) {

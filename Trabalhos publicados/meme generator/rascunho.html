@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./rascunho.css" type="text/css" />
     <title>Meme Generator</title>
   </head>
   <body>
@@ -19,7 +20,6 @@
          <!--  <button id="anexar">Anexar</button> -->
         </div>
         <div id="meme-cont">
-          <label for="meme-insert"></label>
           <input
             type="file"
             id="meme-insert"
@@ -39,15 +39,31 @@
         </div>
       </section>
        <h2>Memes pré prontos</h2>
-        <div id="exemplos">
+        <!-- <div id="exemplos">
           <img src="./imgs/meme1.png" class="meme" id="meme-1" alt="meme1" />
           <img src="./imgs/meme2.png" class="meme" id="meme-2" alt="meme2" />
           <img src="./imgs/meme3.png" class="meme" id="meme-3" alt="meme3" />
           <img src="./imgs/meme4.png" class="meme" id="meme-4" alt="meme4" />
+        </div> -->
+        <div class="carousel" id="exemplos">
+          <a class="carousel-item" id="meme-1 href="#one!"><img src='./imgs/meme1.png'></a>
+          <a class="carousel-item" id="meme-2 href="#two!"><img src="./imgs/meme2.png"></a>
+          <a class="carousel-item" id="meme-3 href="#three!"><img src="./imgs/meme3.png"></a>
+          <a class="carousel-item" id="meme-4 href="#four!"><img src="./imgs/meme4.png"></a>
+          <a class="carousel-item" id="meme-5 href="#five!"><img src="./imgs/natal.jpg"></a>
         </div>
       </main>
     <footer></footer>
-    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+       $(document).ready(function(){
+        $('.carousel').carousel({
+          shift: 60
+        });
+  });
+    </script>
+    <script src="rascunho.js"></script>
   </body>
 </html>
 

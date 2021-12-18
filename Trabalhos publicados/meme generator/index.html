@@ -15,27 +15,34 @@
   </head>
   <body>
     <header>
-      <h1 id="header">Meme Generetor!</h1>
+      <div id="logo">
+        <img src="./imgs/logo2.jpg">
+        <h1 id="header">Meme Generetor!</h1>
+      </div>
       <div id="menu">
+        <div id="cor">
         <label class="label" for="cortexto">Text Color</label>
         <select name="cortexto" id="colorText">
-          <option class="optiontext" value="white">Branco</option>
           <option class="optiontext" value="black">Preto</option>
+          <option class="optiontext" value="white">Branco</option>
           <option class="optiontext" value="yellow">Amarelo</option>
           <option class="optiontext" value="red">Vermelho</option>
           <option class="optiontext" value="green">Verde</option>
           <option class="optiontext" value="blue">Azul</option>
         </select>
-
+      </div>
+      <div id="fontSize">
         <label class="label" for="tamFonte">Tamanho Fonte</label>
         <select name="tamFonte" id="font">
           <option class="optionfont" value="35px">Pequena</option>
           <option class="optionfont" value="45px">Média</option>
           <option class="optionfont" value="60px">Grande</option>
         </select>
-
+      </div>
+      <div id="fontFamily">
         <label class="label" for="family">Fonte Family</label>
         <select name="family" id="family">
+          <option class="optionfamily" value=""></option> 
           <option class="optionfamily" value="Roboto Slab" , serif;>
             Roboto
           </option>
@@ -50,20 +57,25 @@
           </option>
           <option class="optionfamily" value="Cookie" , cursive;>Cookie</option>
         </select>
-
+        </div>
+        <div id="marginContainer">
         <label class="label" for="margin">Margem</label>
         <select name="margin" id="margin">
+          <option class="optionmargin" value=""></option>
           <option class="optionmargin" value="flex-start">Superior</option>
           <option class="optionmargin" value="center">Centralizado</option>
           <option class="optionmargin" value="flex-end">Inferior</option>
         </select>
-
+      </div>
+      <div id="alignContainer">
         <label class="label" for="align">Alinhamento</label>
         <select name="align" id="align">
+          <option class="optionmargin" value=""></option>
           <option class="optionmargin" value="center">Centralizado</option>
           <option class="optionmargin" value="flex-start">Esquerda</option>
           <option class="optionmargin" value="flex-end">Direita</option>
         </select>
+      </div>
       </div>
     </header>
     <main>
@@ -89,20 +101,33 @@
       </section>
       <section>
         <div id="border-container">
+          <h3>Bordas</h3>
           <button id="fire">Fire</button>
           <button id="water">Water</button>
           <button id="earth">Earth</button>
         </div>
       </section>
       <h2>Memes pré prontos</h2>
-      <div id="exemplos">
+      <div class="carrosel">
+      <div class='carroselImg' id="exemplos">
         <img src="./imgs/meme1.png" class="meme" id="meme-1" alt="meme1" />
         <img src="./imgs/meme2.png" class="meme" id="meme-2" alt="meme2" />
         <img src="./imgs/meme3.png" class="meme" id="meme-3" alt="meme3" />
         <img src="./imgs/meme4.png" class="meme" id="meme-4" alt="meme4" />
+        <!-- <img src="./imgs/natal.jpg" class="meme" id="natal" alt="meme5" /> -->
       </div>
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+      <ul id="menuContato">
+        <p>@Andre_Sousa</p>
+        <li id="git"><a href="https://github.com/dedojs" target="_blank"><img src="./img/github.png"></a></li>
+        <li><a href="https://www.linkedin.com/in/andre-luis-sousa/" target="_blank"><img src="./img/linkedin.png"></a></li>
+        <li><a href="mailto:xandresousax@gmail.com" target="_blank"><img src="./img/gmail.png"></a></li>
+        <li><a href='https://api.whatsapp.com/send?phone=5577988020059' target="_blank"><img src="./img/whatsapp.png"></a></li>
+    </ul>
+      <h5>https://wallpaper-mania.com/post/wallpaper-id-777000405879/</h5>
+    </footer>
     <script src="script1.js"></script>
   </body>
 </html>

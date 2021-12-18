@@ -1,0 +1,7 @@
+#menuContato{
+    text-align: center;
+}
+
+#menuContato li{
+    display: inline-block;
+}

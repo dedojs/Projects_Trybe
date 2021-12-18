@@ -82,21 +82,23 @@ let btnWater = document.getElementById("water");
 let btnEarth = document.getElementById("earth");
 
 btnFire.addEventListener("click", () => {
-  memeContainer.style.border = "3px dashed red";
+  memeContainer.style.border = "15px dashed red";
 });
 
 btnWater.addEventListener("click", () => {
-  memeContainer.style.border = "5px double blue";
+  memeContainer.style.border = "15px double blue";
 });
 
 btnEarth.addEventListener("click", () => {
-  memeContainer.style.border = "6px groove green";
+  memeContainer.style.border = "15px groove green";
 });
 
 let memes = document.querySelector("#exemplos");
 function selectImage(element) {
-  let alvo = element.target;
+  console.log(element.target)
   img.src = element.target.src;
 }
 
 memes.addEventListener("click", selectImage);
+
+

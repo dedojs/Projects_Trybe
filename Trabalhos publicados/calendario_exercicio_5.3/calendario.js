@@ -269,3 +269,15 @@ function writeTask(event){
 
 }
 
+//12 adicionar um link em uma data
+
+let diaD= dezDays.children[8]
+diaD.style.color = 'red'
+diaD.style.cursor = 'pointer'
+diaD.addEventListener('dblclick', redirect)
+
+function redirect(element){
+  element.target=window.open('./exercicio1.html','_blanck')
+
+}
+
