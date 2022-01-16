@@ -1,23 +1,23 @@
+// variaveis
+const line = document.getElementById('pixel-board');
+const board = document.querySelectorAll('.pixel');
+const pallet = document.getElementById('color-palette');
+const display = document.querySelectorAll('colors')
+criarBoard(8);
+// função criada baseada na fonte: site wallacemaxters.com.br
+// Função gera os numeros rgb de forma aleatoria, e utiliza um parseInt para pegar um numero inteiro entre 0 e 255, sendo que o valor informado como parâmetro da função é a opacidade da cor.
+function gerar_cor(opacidade = 1) {
+  const r = parseInt(Math.random() * 255);
+  const g = parseInt(Math.random() * 255);
+  const b = parseInt(Math.random() * 255);
+
+  return `rgba(${r}, ${g}, ${b}, ${opacidade})`;
+}
+
 function iniciar() {
   gerar_cor();
 }
 window.addEventListener('load', iniciar);
-
-//variaveis
-const line = document.getElementById('pixel-board');
-const board = document.querySelectorAll('.pixel');
-const pallet = document.getElementById('color-palette');
-let display = document.querySelectorAll('colors')
-criarBoard(8);
-//função criada baseada na fonte: site wallacemaxters.com.br
-//Função gera os numeros rgb de forma aleatoria, e utiliza um parseInt para pegar um numero inteiro entre 0 e 255, sendo que o valor informado como parâmetro da função é a opacidade da cor.
-function gerar_cor(opacidade = 1) {
-  let r = parseInt(Math.random() * 255);
-  let g = parseInt(Math.random() * 255);
-  let b = parseInt(Math.random() * 255);
-
-  return `rgba(${r}, ${g}, ${b}, ${opacidade})`;
-}
 
 let list = [p2, p3, p4, p5, p6, p7, p8, p9,p15,p16]
 // Cor dos quadrados gerado aleatoriamente

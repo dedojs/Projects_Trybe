@@ -1,0 +1,317 @@
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(63, 61, 61);
+}
+
+#evaluation-form {
+  display: none;
+  width: 675px;
+  flex-direction: column;
+  color: white;
+}
+
+#trybewarts-forms-logo {
+  height: 550px;
+  width: 675px;
+  display: flex;
+  align-items: center;
+}
+
+#trybewarts-forms-logo img {
+  width: 550px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.trybewarts-header-logo {
+  width: 120px;
+  margin-left: 20px;
+}
+
+#trybewarts-header-title {
+  font-size: 64px;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+.inputText {
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 5px;
+  height: 42px;
+  padding: 5px;
+}
+
+#btnLogin {
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(130, 15, 238);
+  color: white;
+  font-weight: 900;
+}
+
+.flex {
+  display: flex;
+}
+
+/* requisito 12 */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#label-family {
+  margin-bottom: 10px;
+}
+
+.family div {
+  margin-left: 10px;
+}
+
+/* requisito 13 */
+.family-check {
+  margin-left: 20px;
+}
+
+.family-check p {
+  margin-bottom: 10px;
+}
+
+.family-check input {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* requisito 14 */
+.rate-container {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+/* requisito 17 */
+#submit-btn {
+  background-color: rgb(130, 15, 238);
+  color: white;
+  font-weight: 900;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.checkAll {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#agreement {
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input {
+  width: 310px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.textarea {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#textarea {
+  margin-left: 20px;
+  padding: 5px;
+}
+
+#textArea-container {
+  display: flex;
+}
+
+#counter {
+  align-self: flex-end;
+  margin-left: 10px;
+  position: relative;
+  right: 46px;
+  color: black;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+#resume li {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#resume {
+  margin-top: 20px;
+  display: none;
+  margin-left: 20px;
+  float: left;
+  position: relative;
+  width: 675px;
+}
+
+@media screen and ( max-width : 1120px ) {
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #trybewarts-header-title {
+    margin-left: 20px;
+  }
+
+  .trybewarts-login {
+    margin-top: 20px;
+  }
+}
+
+@media screen and ( max-width : 700px ) {
+
+  .trybewarts-login input {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  #evaluation-form {
+    display: none;
+    width: 90%;
+    color: white;
+    border: 1px yellow solid;
+    margin-left: 0;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .family {
+    align-items: center;
+  }
+
+  .family-check {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .rate-container {
+    margin-left: 0;
+  }
+
+  .rate-container label {
+    text-align: center;
+  }
+
+}
+
+@media screen and ( max-width : 570px ) {
+
+  .family-check {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #trybewarts-forms-logo {
+    width: 100%;
+  }
+
+  #input-name {
+    width: 90%;
+  }
+
+  #input-lastname {
+    width: 90%;
+  }
+
+  #house {
+    width: 90%;
+  }
+
+  #input-email {
+    width: 90%;
+  }
+
+  .rate {
+    text-align: center;
+  }
+
+  #trybewarts-header-title {
+    font-size: 48px;
+  }
+
+  .trybewarts-login {
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+  }
+
+}
