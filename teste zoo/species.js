@@ -17,10 +17,10 @@ function getSpeciesByIds(...ids) {
     const species = data.species
     // console.log(species)
     const animal = species.filter((element, index) => element.id === ids[index])
-    // const result = species.map(animal)
+    
     return animal
 }
 
-console.log(getSpeciesByIds())
+console.log(getSpeciesByIds('01422318-ca2d-46b8-b66c-3e9e188244ed'))
 
 module.exports = getSpeciesByIds;

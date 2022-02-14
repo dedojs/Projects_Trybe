@@ -21,10 +21,6 @@ const malucada = []
 function isManager(id) {
   const employees = data.employees
   const managers = employees.map(({managers}) => managers).filter((ids) => ids.includes(id))
-  
-  //console.log(malucada)
-  //console.log(malucada)
-  //console.log('managers', managers)
   return managers.length > 0 ? true : false
 }
 //console.log(isManager('9e7d4524-363c-416a-8759-8aa7e50c0992'))
@@ -34,7 +30,6 @@ function getRelatedEmployees(managerId) {
     if (item.managers.includes(managerId)) {
       malucada.push(item.firstName)
     }})
-
 if (isManager(managerId) === true) {
     return malucada 
   } throw new Error('O id inserido não é de uma pessoa colaboradora gerente!');
