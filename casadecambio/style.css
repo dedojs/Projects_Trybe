@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(68, 67, 67);
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.container {
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    color: rgb(49, 51, 49);
+    text-align: center;
+    justify-content:center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    overflow-y: scroll;
+}
+
+#base {
+    margin-top: 20px;
+}
+
+.list {
+    list-style: none;
+    color: rgb(10, 59, 10);
+}
+
