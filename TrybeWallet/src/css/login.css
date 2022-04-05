@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*
+background-image: url('../walletImages/—Pngtree—life\ service\ black\ background\ minimalistic_992090.jpg');
+  background-repeat: no-repeat;
+*/
+
+body {
+  background-color: rgba(67, 66, 66, 0.843);
+}
+
+.userContainer {
+  align-items: center;
+  background-color: rgba(246, 242, 242, 0.837);
+  background-image: url('../walletImages/back2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  margin: auto;
+  margin-top: 200px;
+  max-width: 700px;
+  padding: 30px;
+  width: 80%;
+}
+
+.header {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.userContainer input {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: left;
+}
+
+.userContainer button {
+  background-color: rgba(247, 212, 10, 0.806);
+  border-radius: 5px;
+  color: rgb(237, 235, 235);
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+/*
+.userContainer button:disabled {
+  background-color: rgb(199, 197, 197);
+}
+*/
+
+.headerContainer {
+  align-items: center;
+  background-color: rgba(33, 33, 33, 0.797);
+  border-bottom: 5px solid white;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.headerContainer h1 {
+  margin: 20px;
+}
+
+.headerContainer p {
+  margin: 20px;
+}
+
+.headerContainer a {
+  color: white;
+}
+
+.formExpensesContainer {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 95%;
+}
+
+.formExpensesContainer input , select {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.formExpensesContainer button {
+  border-radius: 10px;
+  font-style: bolder;
+  padding: 5px;
+}
+
+.formExpensesContainer label {
+  color: white;
+  font-weight: 900;
+}
+
+.formResult {
+  border: 2px solid rgb(1, 1, 1);
+  font-size: 1vw;
+  margin: auto;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.formExpensesContainer td {
+  border: 1px solid black;
+  margin: auto;
+  padding: 10px;
+}
+
+.wallet h3 {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+tr {
+  background-color: white;
+}
+
+th {
+  background-color: rgb(89, 89, 89);
+  border: solid rgb(23, 23, 23) 1px;
+  color: white;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: rgba(136, 136, 139, 0.894);
+}
+
+.formBtnContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.formBtnContainer button {
+  border-radius: 10px;
+  padding: 3px;
+  width: 100px;
+}
+
+table {
+  background-color: rgb(75, 75, 75);
+}
+
+.new {
+  background-color: rgb(138, 138, 138);
+  border-radius: 5px;
+  font-size: 1.5vw;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  width: 95%;
+}
+
+.new tr {
+  background-color: rgb(246, 245, 245);
+}
+
+.new input {
+  border: none;
+  width: 95%;
+}
+
+.new select {
+  border: none;
+  width: 95%;
+}
